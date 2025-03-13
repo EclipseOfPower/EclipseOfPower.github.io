@@ -66,7 +66,7 @@ body {
 button.read-chapter {
     width: 150px; /* Adjust width of buttons */
     padding: 10px 10px;
-    background: linear-gradient(135deg, #3b8ccb, #2d85ec); /* Blue gradient */
+    background: linear-gradient(135deg, #9C4E4F, #7D3031); /* Blue gradient */
     border: none;
     color: whitesmoke;
     font-size: 16px; /* Default font size */
@@ -80,7 +80,7 @@ button.read-chapter {
 
     /* Hover effect */
     button.read-chapter:hover {
-        background: linear-gradient(135deg, #256bbc, #1d6bb3); /* Hover effect */
+        background: linear-gradient(135deg, #813535, #612323); /* Hover effect */
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
 
@@ -144,7 +144,7 @@ button.read-chapter {
     /* Hover and focus effects */
     #chapter-select-top:hover, #chapter-select-bottom:hover,
     #chapter-select-top:focus, #chapter-select-bottom:focus {
-        border-color: #2196F3; /* Blue color on hover/focus for consistency with site’s buttons */
+        border-color: #f32121; /* Blue color on hover/focus for consistency with site’s buttons */
         background-color: #444; /* Slightly lighter dark color for hover/focus state */
     }
 
