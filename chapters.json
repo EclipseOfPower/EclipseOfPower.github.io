@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Prologue",
+        "filename": "0.1.txt"
+    },
+    {
+        "title": "Chapter 1: Monster of Chaos",
+        "filename": "1.txt"
+    },
+    {
+        "title": "Chapter 2: Creature",
+        "filename": "2.txt"
+    },
+    {
+        "title": "Chapter 3: King",
+        "filename": "3.txt"
+    },
+    {
+        "title": "Chapter 4: Fortress",
+        "filename": "4.txt"
+    },
+    {
+        "title": "Chapter 5: Millions",
+        "filename": "5.txt"
+    },
+    {
+        "title": "Chapter 6: Ester",
+        "filename": "6.txt"
+    }
+]

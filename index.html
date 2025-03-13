@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta content='The official source for "Eclipse of Power: The Dark Ascendancy"' name="description"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="https://i.imgur.com/A3B4q2K.jpeg" property="og:image"/>
+<title>Eclipse of Power: The Dark Ascendancy</title>
+<link href="styles.css" rel="stylesheet"/> <!-- Link to the external CSS file -->
+<link href="ppt1.webp" rel="icon" type="image/webp"/>
+<!-- ScrollBooster Library -->
+<script src="https://cdn.jsdelivr.net/npm/scrollbooster@3.0.0/dist/scrollbooster.min.js"></script>
+<script defer="" src="script.js"></script> <!-- Link to the external JavaScript file -->
+</head>
+<body>
+
+<div class="container">
+<!-- Book Cover and Info -->
+<div class="book-info-container">
+<div class="book-cover">
+<img alt="Book Cover" src="cover50.webp"/>
+</div>
+<div class="book-info">
+<h1>Eclipse of Power: The Dark Ascendancy</h1>
+<p>Author: <a href="https://www.webnovel.com/profile/4502307030" style="color: inherit; text-decoration: none;">Naird12</a></p>
+</div>
+</div>
+<!-- Synopsis Section -->
+<div class="synopsis-section collapsed">
+<h2>Synopsis</h2>
+<p class="preview-synopsis">
+    In a galaxy ruled by order, chaos is a force both feared and forbidden. Yet, for Nero, chaos is the key to ultimate power. <br/>
+    Scarred by a tragic past and driven by an insatiable hunger for strength, he will stop at nothing to seize it.<br/><br/> He steals, destroys, and kills without hesitation, carving a path of devastation in his relentless pursuit of immortality.<br/>
+</p>
+<p class="full-synopsis">
+    With the ancient Polykenas at his command—beings born from chaos itself—Nero has discovered a way to harness the untapped energy of fallen worlds. <br/><br/>His empire grows, and his enemies fall before him. <br/>But as he edges closer to godhood, the question remains: Will he control the chaos, or will it consume him?<br/>
+
+    In this dark tale of power and ambition, even the gods will tremble before the strongest of immortals.
+</p>
+<button class="view-synopsis">v</button>
+<!-- Updated Button: First Chapter -->
+<button class="read-chapter" onclick="window.location.href='read/1/'">First Chapter</button>
+<!-- New Button: Latest Chapter -->
+<button class="read-chapter" onclick="scrollToBottom()">Latest Chapter</button>
+</div>
+<!-- New Chapters Section -->
+<div class="chaptersPanel_buffer" id="chaptersPanel_buffer"><h2>New Chapters</h2></div>
+<style>
+            .chaptersPanel {
+
+                max-height: 200px;
+                overflow: hidden;
+                border: 1px solid #4b4b4b;
+                border-radius: 8px;
+                padding-right: 3px;
+                padding-left: 3px;
+                background: linear-gradient(to bottom, #343434, #343434);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                cursor: grab;
+                position: relative;
+                user-select: none;
+                color: #ddd;
+            }
+
+            .chaptersPanel-item * {
+                pointer-events: none; /* Disable pointer events on child elements */
+                flex: 1;
+            }
+
+            .chaptersPanel-content {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+       
+                
+            }
+
+            .chaptersPanel-item {
+                
+                
+                padding: 10px 15px;
+                cursor: pointer;
+                border-bottom: 1px solid #555;
+                background: linear-gradient(to right, #2e2e2e, #242424);
+                border-radius: 4px;
+                transition: background-color 0.2s, transform 0.1s ease;
+                margin: 5px 0;
+                z-index: 10;
+            }
+
+                .chaptersPanel-item:hover {
+                    background: linear-gradient(to right, #3c3c3c, #292929);
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                    transform: scale(1.02);
+                }
+
+                .chaptersPanel-item:last-child {
+                    border-bottom: none;
+            
+                }
+
+                .chaptersPanel-item:active {
+                    background: linear-gradient(to right, #444, #333);
+                    transform: scale(0.98);
+                }
+
+            /* Optional: Add a scroll bar style */
+            .chaptersPanel-content::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            .chaptersPanel-content::-webkit-scrollbar-thumb {
+                background: #555;
+                border-radius: 3px;
+            }
+
+                .chaptersPanel-content::-webkit-scrollbar-thumb:hover {
+                    background: #666;
+                }
+
+
+        </style>
+<div class="chaptersPanel" id="chaptersPanel">
+<div class="chaptersPanel-content" id="chaptersPanelContent"><div class="chaptersPanel-item" data-url="/read/6/" data-utc="2025-03-12T23:43:47Z">
+<b>Chapter 6: Ester</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/5/" data-utc="2025-03-12T23:43:47Z">
+<b>Chapter 5: Millions</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/4/" data-utc="2025-03-12T23:43:47Z">
+<b>Chapter 4: Fortress</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/3/" data-utc="2025-03-12T23:18:53Z">
+<b>Chapter 3: King</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/2/" data-utc="2025-03-12T23:18:53Z">
+<b>Chapter 2: Creature</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/1/" data-utc="2025-03-12T23:18:53Z">
+<b>Chapter 1: Monster of Chaos</b>
+<div class="local-timestamp"></div>
+</div>
+<div class="chaptersPanel-item" data-url="/read/0.1/" data-utc="2025-03-12T23:18:53Z">
+<b>Prologue</b>
+<div class="local-timestamp"></div>
+</div>
+</div>
+</div>
+<script>
+            // Get the container and items
+            const panelContent = document.getElementById('chaptersPanelContent');
+            const items = panelContent.getElementsByClassName('chaptersPanel-item');
+
+            // Calculate the margin for the last item
+            const marginPerItem = 20; // Adjust this value as needed
+            if (items.length > 0) {
+                items[items.length - 1].style.marginBottom = `${marginPerItem * items.length}px`;
+            }
+
+
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const viewport = document.getElementById("chaptersPanel");
+                const content = document.getElementById("chaptersPanelContent");
+
+                // Initialize ScrollBooster
+                new ScrollBooster({
+                    viewport: viewport,
+                    content: content,
+                    scrollMode: 'transform', // Smooth transform-based scrolling
+                    direction: 'vertical',    // Enable vertical scrolling
+                    emulateScroll: true,      // Allow mousewheel and touch scrolling
+                    bounce: false,            // Prevent snapping back
+                });
+
+                // Variables to track drag and click
+                let isDragging = false;
+                let startX = 0;
+                let startY = 0;
+
+                // Add mouse event listeners
+                content.addEventListener('mousedown', (e) => {
+                    isDragging = false;
+                    startX = e.clientX;
+                    startY = e.clientY;
+                });
+
+                content.addEventListener('mousemove', (e) => {
+                    if (Math.abs(e.clientX - startX) > 5 || Math.abs(e.clientY - startY) > 5) {
+                        isDragging = true;
+                    }
+                });
+
+                content.addEventListener('mouseup', (e) => {
+                    if (!isDragging) {
+                        const target = e.target;
+                        if (target.classList.contains('chaptersPanel-item')) {
+                            const url = target.getAttribute('data-url');
+                            if (url) {
+                                location.href = url;
+                            }
+                        }
+                    }
+                });
+
+                // Convert UTC timestamps to local time
+                document.querySelectorAll('.chaptersPanel-item').forEach(item => {
+                    const utcTime = item.getAttribute('data-utc');
+                    const localTimeElement = item.querySelector('.local-timestamp');
+                    if (utcTime && localTimeElement) {
+                        const date = new Date(utcTime);
+                        const localTimeString = date.toLocaleString(); // Converts to local time string
+                        localTimeElement.textContent = localTimeString;
+                    }
+                });
+
+
+
+
+
+                // Prevent page scroll when interacting with chaptersPanel on touch devices
+                viewport.addEventListener("touchmove", (e) => {
+                    const scrollTop = viewport.scrollTop;
+                    const scrollHeight = viewport.scrollHeight;
+                    const clientHeight = viewport.clientHeight;
+                    const atTop = scrollTop === 0;
+                    const atBottom = scrollTop + clientHeight >= scrollHeight;
+
+                    if (
+                        (atTop && e.touches[0].clientY > 0) ||
+                        (atBottom && e.touches[0].clientY < 0)
+                    ) {
+                        e.preventDefault();
+                    }
+                }, { passive: false });
+
+                // Disable mousewheel scrolling on PC when hovering over chaptersPanel
+                viewport.addEventListener("wheel", (e) => {
+                    if (viewport.matches(':hover')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                    }
+                }, { passive: false });
+            });
+        </script>
+<!-- Chapter List -->
+<div class="chapter-list">
+<h2>Chapters</h2>
+<div id="chapterContainer">
+<!-- JavaScript will populate this list -->
+</div>
+</div>
+</div>
+</body>
+</html>
